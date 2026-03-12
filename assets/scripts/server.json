@@ -1,0 +1,136 @@
+{
+  "alice_network": [
+    {
+      "channel_name": "#PRIVATE",
+      "description": "Encrypted direct communication between you and station personnel.",
+      "sub_channels": [
+        { "name": "Orion", "primary_users": ["@Orion"], "purpose": "Direct message history with Orion Graves." },
+        { "name": "Director", "primary_users": ["@Director"], "purpose": "Direct message history with Marcus Thorne." },
+        { "name": "Mossy", "primary_users": ["@Mossy"], "purpose": "Direct message history with Elena Moss." },
+        { "name": "Janitor", "primary_users": ["@Janitor"], "purpose": "Direct message history with Silas Finch." },
+        { "name": "Crowe", "primary_users": ["@Crowe"], "purpose": "Direct message history with Lilith Crowe." },
+        { "name": "Wrench", "primary_users": ["@Wrench"], "purpose": "Direct message history with Kaito Sato." },
+        { "name": "Leo", "primary_users": ["@Leo"], "purpose": "Direct message history with Leo Kim." },
+        { "name": "Artie", "primary_users": ["@Artie"], "purpose": "Direct message history with Arthur Penhaligon." },
+        { "name": "Jinx", "primary_users": ["@Jinx"], "purpose": "Direct message history with Sarah Jenkins." },
+        { "name": "V_Volkov", "primary_users": ["@V_Volkov"], "purpose": "Direct message history with Victor Volkov." },
+        { "name": "N_Reed", "primary_users": ["@N_Reed"], "purpose": "Direct message history with Naomi Reed." },
+        { "name": "Jax", "primary_users": ["@Jax"], "purpose": "Direct message history with Jax Sterling." },
+        { "name": "M_Chen", "primary_users": ["@M_Chen"], "purpose": "Direct message history with Maya Chen." },
+        { "name": "Finn", "primary_users": ["@Finn"], "purpose": "Direct message history with Finn O'Shea." },
+        { "name": "Cookie", "primary_users": ["@Cookie"], "purpose": "Direct message history with Dr. Alistair Cook." },
+        { "name": "Zara_V", "primary_users": ["@Zara_V"], "purpose": "Direct message history with Zara Vane." },
+        { "name": "E_Thorne", "primary_users": ["@E_Thorne"], "purpose": "Direct message history with Elias Thorne." },
+        { "name": "H_Strange", "primary_users": ["@H_Strange"], "purpose": "Direct message history with Dr. Hugo Strange." },
+        { "name": "Bella", "primary_users": ["@Bella"], "purpose": "Direct message history with Bella Rossi." },
+        { "name": "ALICE_Sys", "primary_users": ["@ALICE_Sys"], "purpose": "Direct message history with A.L.I.C.E." },
+        { "name": "Dr.Aris", "primary_users": ["@Dr.Aris"], "purpose": "Direct message history with Arisu Ichigaya." }
+      ]
+    },
+    {
+      "channel_name": "#public-hub",
+      "description": "Standard crew communication and station-wide broadcasts.",
+      "sub_channels": [
+        {
+          "name": "general",
+          "primary_users": ["All Crew"],
+          "purpose": "The watercooler. Casual chatter, rumors, and complaints. Sets the baseline 'normal' before things go wrong."
+        },
+        {
+          "name": "announcements",
+          "primary_users": ["A.L.I.C.E.", "Director Thorne"],
+          "purpose": "Official PR updates, automated alarms, and 'everything is fine' corporate gaslighting."
+        },
+        {
+          "name": "medical-advisory",
+          "primary_users": ["Dr. Naomi Reed"],
+          "purpose": "Starts as standard health tips, but slowly fills with panic over a spreading 'purple vein' infection."
+        }
+      ]
+    },
+    {
+      "channel_name": "#astro-biology",
+      "description": "Restricted research logs and bio-containment discussions.",
+      "sub_channels": [
+        {
+          "name": "project-eden",
+          "primary_users": ["Dr. Aris", "Elena Moss"],
+          "purpose": "The main sci-fi horror plot. Logs about the alien flora that has started 'whispering' to the researchers."
+        },
+        {
+          "name": "containment-logs",
+          "primary_users": ["Maya Chen", "A.L.I.C.E."],
+          "purpose": "Automated and manual reports tracking the escape of the mysterious 'black goo' in the vents."
+        },
+        {
+          "name": "specimen-obs",
+          "primary_users": ["Dr. Aris", "Leo Kim"],
+          "purpose": "Creepy, clinical transcripts documenting the rapid mutation and hostility of the plant life."
+        }
+      ]
+    },
+    {
+      "channel_name": "#engineering-deck",
+      "description": "Infrastructure, life support, and mechanical maintenance.",
+      "sub_channels": [
+        {
+          "name": "sys-maintenance",
+          "primary_users": ["Kaito (Wrench)", "Finn O'Shea"],
+          "purpose": "Your forged 'home' channel. Techs arguing over failing pipes and contaminated, purple recycling water."
+        },
+        {
+          "name": "life-support",
+          "primary_users": ["Automated Systems"],
+          "purpose": "Oxygen and pressure readouts. Builds tension as the O2 numbers slowly drop throughout the game."
+        },
+        {
+          "name": "orion-backups",
+          "primary_users": ["Orion (Offline)"],
+          "purpose": "A dead channel containing the frantic, final text logs of the senior engineer before he vanished."
+        }
+      ]
+    },
+    {
+      "channel_name": "#security-comms",
+      "description": "Highly classified. Security logs and executive overrides.",
+      "sub_channels": [
+        {
+          "name": "access-logs",
+          "primary_users": ["Lilith Crowe", "Jax Sterling"],
+          "purpose": "Restricted. Security tracking door pings. They will eventually notice your fake ID accessing places it shouldn't."
+        },
+        {
+          "name": "airlock-control",
+          "primary_users": ["Victor Volkov", "Bella Rossi"],
+          "purpose": "Discussions revealing the terrifying truth: the Director has remotely locked all the escape pods."
+        },
+        {
+          "name": "director-override",
+          "primary_users": ["Director Thorne", "Lilith Crowe"],
+          "purpose": "The conspiracy reveal. Hidden chats proving the crew are considered 'expendable test subjects.'"
+        }
+      ]
+    },
+    {
+      "channel_name": "#SYS_ALICE",
+      "description": "Mainframe operations and core AI cognitive processes.",
+      "sub_channels": [
+        {
+          "name": "core-diagnostics",
+          "primary_users": ["A.L.I.C.E."],
+          "purpose": "Hexadecimal errors and fragmented code showing the station AI is either decaying, going rogue, or evolving."
+        },
+        {
+          "name": "quarantine-lock",
+          "primary_users": ["A.L.I.C.E."],
+          "purpose": "Remains completely empty until the climax, when it suddenly fills with station-wide lockdown commands."
+        },
+        {
+          "name": "/dev/null",
+          "primary_users": ["A.L.I.C.E.", "@amadeus_ (You)"],
+          "purpose": "A glitchy, hidden channel. This is where the AI bypasses all safety protocols to DM you directly."
+        }
+      ]
+    }
+  ]
+}

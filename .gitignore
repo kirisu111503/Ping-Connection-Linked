@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+player_data.json
+venv/
+.env
+build/
+dist/
+*.exe
+*.spec
